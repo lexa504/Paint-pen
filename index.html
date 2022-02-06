@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+    <script src="button.js"></script>
+    <script src="view.js"></script>
+    <script src="controller.js"></script>
+    <script src="app.js"></script>
+  </head>
+  <body>
+    <div id="canvas-container">
+      <canvas id="canvasBG"></canvas>
+      <canvas id="canvasFG"></canvas>
+    </div>
+    <div id="button-container">
+      <div id="draw" class="button"></div>
+      <div id="eraser" class="button"></div>
+      <div id="color" class="button"></div>
+      <div id="trash" class="button"></div>
+      <div id="background" class="button"></div>
+      <div id="shapes" class="button"></div>
+      <div id="fill" class="button"></div>
+    </div>
+    <input type="color" id="pen-color-selector" />
+    <input type="color" id="bg-color-selector" />
+    <select name="pen-thickness" id="pen-thickness">
+      <option value="1">1px</option>
+      <option value="2">2px</option>
+      <option value="4">4px</option>
+      <option value="8">8px</option>
+      <option value="16">16px</option>
+      <option value="32">32px</option>
+    </select>
+  </body>
+</html>
